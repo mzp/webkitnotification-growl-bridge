@@ -1,0 +1,33 @@
+<html>
+  <head>
+    <title>webkitNotification-growl bridge</title>
+    <meta HTTP-EQUIV="Content-type" CONTENT="text/html; charset=UTF-8"/>
+    <link rel="stylesheet" href="stylesheets/main.css" type="text/css" media="all">
+    <script type="text/javascript" src="javascripts/jquery.min.js"></script>
+    <script type="text/javascript" src="javascripts/options.js"></script>
+  </head>
+  <body>
+    <div class='main'>
+      <div class='header'>
+        <h1 style='font-size:1.5em;'>webkitNotification-growl bridge</h1>
+      </div>
+      <div class='content'>
+        <form onsubmit="javascript:window.close();">
+          <fieldset>
+            <div class="clearfix">
+              <div class="left">
+                <label>Bridge URL </label>
+              </div>
+              <div class="right">
+                <input name="bridge-url" id="bridge-url" class="text" placeholder="http://localhost:4567/" autofocus="true" />
+              </div>
+            </div>
+          </fieldset>
+          <div class="buttons">
+            <input value="Save" class="button save" type="submit" />
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,13 @@
+{
+    "name": "webkitNotification-growl bridge",
+    "content_scripts": [ {
+        "js": [ "script.js" ],
+        "matches": [ "http://*/*" ]
+    }],
+    "version": "1.0",
+    "permissions": [
+        "tabs", "http://*/*"
+    ],
+    "background_page": "background.html",
+    "options_page": "options.html"
+}
